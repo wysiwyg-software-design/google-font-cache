@@ -1,6 +1,8 @@
 {
   "name": "wy/google-font-cache",
   "version": "1.0.0",
+  "description": "A WordPress Plugin to cache Google Fonts to your server to avoid GDPR conflicts.",
+  "license": "MIT",
   "authors": [
     {
       "name": "Cem Derin",
@@ -14,7 +16,8 @@
     }
   ],
   "require": {
-    "johnpbloch/wordpress": "5.2.4"
+    "johnpbloch/wordpress": "5.2.4",
+    "composer/installers": "^1.7"
   },
   "extra": {
     "wordpress-install-dir": "./.hypress/htdocs/wp/",
@@ -32,5 +35,6 @@
   },
   "config": {
     "vendor-dir": "src/vendor"
-  }
+  },
+  "type": "wordpress-plugin"
 }

@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This repository is deprecated and will be removed in September 2025
+
 # Google Font Cache
 ![Version](https://img.shields.io/badge/version-v1.0.0-violet.svg)
 ![Last commit](https://img.shields.io/github/last-commit/wysiwyg-software-design/google-font-cache.svg?style=flat)
